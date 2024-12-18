@@ -1,0 +1,51 @@
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    position: relative; /* Added to make the .Price absolute positioning work */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto; /* Changed to auto to ensure the whole image is visible */
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    grid-row: 1 / 2;
+}
+
+.product-item p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    grid-row: 2 / 3;
+}
+
+.product-item .Price {
+    opacity: 0; /* Initially hidden */ 
+    visibility: hidden; /* Prevents interaction */ 
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */ 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    display: none; /* Ensures the price is initially hidden */
+    grid-row: 2 / 3;
+}
+
+.product-item img:hover + .Price {
+    display: block;
+    opacity: 1; /* Show the text */ 
+    visibility: visible; /* Allows interaction */
+    display: inline-block; 
+}

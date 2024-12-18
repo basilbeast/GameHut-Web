@@ -1,0 +1,86 @@
+.faq {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h2 {
+    margin-top: 0;
+}
+
+.faq h3 {
+    margin-bottom: 10px;
+}
+
+.faq p {
+    margin-bottom: 20px;
+}
+
+.faq form {
+    margin-top: 20px;
+}
+
+.faq label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.faq input, .faq textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.faq button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.faq button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+#Contact {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#Contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#Contact input, #Contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#Contact button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Contact button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+h2 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,46 @@
+#Heading {
+    text-decoration:dotted;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large
+}
+#Sub-Heading 
+{
+    text-align: center;
+    text-shadow: 0vw;
+    text-justify: distribute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+}
+#release-date
+{
+    opacity: 0; /* Initially hidden */ 
+    visibility: hidden; /* Prevents interaction */ 
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition */ 
+.game-item {
+    position: relative;
+
+}
+
+}
+
+.game-item .release-date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    display: none;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease;
+    visibility: hidden;
+
+}
+
+.game-item:hover #release-date {
+    display: block;
+    opacity: 1; /* Show the text */ 
+    visibility: visible; /* Allows interaction */ 
+}

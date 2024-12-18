@@ -1,0 +1,20 @@
+{
+    "name": "Game Hut",
+    "short_name": "GameHut",
+    "start_url ": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#333333",
+    "icons": [
+        {
+            "src": "download.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "download 2.png",
+            "sizes": "500x500",
+            "type": "image/png"
+        }
+    ]
+}
